@@ -6,7 +6,7 @@
 #    By: jinhyeop <jinhyeop@student.42seoul.kr>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/29 16:11:40 by jinhyeop          #+#    #+#              #
-#    Updated: 2024/07/18 19:40:29 by jinhyeop         ###   ########.fr        #
+#    Updated: 2024/07/24 17:39:17 by jinhyeop         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@
 NAME = inception
 
 # Docker Compose 실행 명령어
-DOCKER_COMPOSE = docker-compose -f ./srcs/docker-compose.yml
+DOCKER_COMPOSE = docker-compose -f docker-compose.yml
 
 # 프로젝트 실행
 all: up
